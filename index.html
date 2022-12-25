@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="./style.css">
+     
+</head>
+
+<body>
+    <nav>
+        <h2 class="logo">logo</h2>
+
+        <ul class="navLinks">
+            <li class="active" <a href="#">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li class="ctn"> Contact </li>
+        </ul>
+        <img src="./img/menu (3).png" class="menuBtn" alt="">
+    </nav>
+
+
+
+    <header>
+
+        <div class="headerContainer">
+            <h2>Explore The ColorFul World</h2>
+            <div class="line"> </div>
+            <h1>A WonderFul Gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+
+    <section id="events" class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"> </div>
+
+        </div>
+        <div class="row  fld">
+            <div class="col">
+                <img src="./img/3.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Aspernatur explicabo beatae corporis natus velit nostrum. consectetur adipisicing
+                    elit. Quas, fugiat.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/4.jpg" alt="">
+                <h4>Best Food Here</h4>
+                <p>Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id explicabo deleniti libero odio
+                    reiciendis dolorum. ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, fugiat.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="explore" class="explore">
+        <div class="exploreContent">
+
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quidem cum placeat sint qui cumque
+                necessitatibus ab. Iste, in, accusantium numquam quasi dolorem deleniti quibusdam explicabo excepturi
+                possimus, quae vel.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="tours" class="tours">
+        <div class="row">
+            <div class="col contentCol">
+                <h1>Upcoming Tours and Destinations</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, iure laborum harum m minus odio
+                    repellendus sunt! Harum, ullam. Quibusdam, quisquam eius.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col imgCol">
+                <div class="imgGallery">
+                    <img src="./img/imm1.jpg" alt="">
+                    <img src="./img/imm2.jpg" alt="">
+                    <img src="./img/imm3.jpg" alt="">
+                    <img src="./img/imm4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Lorem adipisicing elit. Sed commodi amet, error soluta magnam vel odit. Earum a eve</p>
+        <p>Lorem ipsum, dolor sit amet c elit. sint ea? Maxime </p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector(".menuBtn");
+        const navLinks = document.querySelector(".navLinks");
+
+        menuBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("mobileMenu")
+        })
+    </script>
+</body>
+
+</html>
